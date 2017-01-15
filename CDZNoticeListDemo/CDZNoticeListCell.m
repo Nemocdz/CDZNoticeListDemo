@@ -51,7 +51,7 @@ static const float avatarHeight = 40;
 - (void)setLayout{
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(self.contentView.mas_top).offset(30);
-        make.left.mas_equalTo(self.contentView).offset(15);
+        make.left.mas_equalTo(self.contentView.mas_left).offset(15);
         make.right.mas_equalTo(self.contentView.mas_right).offset(-15);
     }];
     [self.subtitleLabel mas_makeConstraints:^(MASConstraintMaker *make) {

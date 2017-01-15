@@ -37,8 +37,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ms-5F-o55">
-                                <rect key="frame" x="155" y="315" width="65" height="38"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ms-5F-o55">
+                                <rect key="frame" x="156" y="318" width="62" height="30"/>
                                 <state key="normal" title="消息中心"/>
                                 <connections>
                                     <segue destination="drG-Ky-Ih9" kind="show" id="b1p-DW-JfS"/>
